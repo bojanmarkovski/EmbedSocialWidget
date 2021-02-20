@@ -1,0 +1,129 @@
+body {
+    width: 100%;
+    margin: 0 auto;
+    font-family: sans-serif;
+}
+
+/* All selectors style */
+p {
+    margin: 0;
+}
+/* END all selectors style */
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+}
+
+.container .widget-box {
+    width: 25%;
+    border: 1px solid#D6DAE4;
+    background-color: #ffffff;
+    padding: 15px;
+    cursor: pointer;
+    margin: 5px;
+}
+
+.container .widget-box:hover {
+    box-shadow: 0 0 10px rgb(0 0 0 / 15%);
+    transition: 0.2s;
+}
+
+.container .widget-box .info {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+
+.container .widget-box img.profile-img {
+    border-radius: 50%;
+    width: 60px;
+    margin-right: 5px;
+}
+
+.container .widget-box .info div {
+    width: calc(100% - 90px);
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+.container .widget-box .info div p {
+    color: #000000;
+    font-size: 18px;
+    line-height: 25px;
+    word-break: break-word;
+    word-wrap: break-word;
+    font-weight: 600;
+}
+
+.container .widget-box .info div small {
+    font-size: 12px;
+    color: #9CA0AC;
+}
+
+.container .widget-box img.social-icon {
+    width: 30px;
+    margin-left: 5px;
+}
+
+.container .widget-box .box-img img {
+    width: 100%;
+    margin: 15px 0px;
+}
+
+.container .widget-box hr {
+    border-color: rgba(0, 0, 0, 0.1);
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.container .widget-box div span.heart {
+    font-size: 16px;
+}
+
+
+/* MODAL STYLE */ 
+
+.modal-widget-container {
+    display: flex;
+    position: fixed;
+    background-color: #ffffff;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    border: 1px solid#D6DAE4;;
+    padding: 15px;
+}
+
+.modal-widget-container .modal-img {
+    margin-right: 5px;
+}
+
+.modal-widget-container .modal-info {
+    margin-left: 5px;
+}
+
+.modal-widget-container .modal-info p.name {
+    color: #000000;
+    font-size: 18px;
+    line-height: 25px;
+    word-break: break-word;
+    word-wrap: break-word;
+    font-weight: 600;
+}
+
+.modal-widget-container .modal-info p.caption {
+    margin-bottom: 20px;
+}
+
+.modal-widget-container .modal-info small {
+    font-size: 12px;
+    color: #9CA0AC;
+}
+
+.modal-widget-container .modal-info .social-icon {
+    float: right;
+    width: 30px;
+}
